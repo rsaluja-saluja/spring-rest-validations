@@ -3,6 +3,9 @@ Spring Rest Validation
 
 	Required spring-boot-starter-validation dependency
 	
+	@ControllerAdvice is an annotation, to handle the exceptions globally
+	@ExceptionHandler is an annotation used to handle the specific exceptions and sending the custom responses to the client.
+	
 	Bean Validation:
 		@NotEmpty, @NotNull, @DecimalMin etc constraints added in Book Entity
 		Add @Valid to @RequestBody

@@ -14,6 +14,8 @@ import com.example.springrestvalidations.repo.BookRepository;
 public class SpringRestValidationsApplication {
 
 	public static void main(String[] args) {
+		System.out.println("Rajni app");
+
 		SpringApplication.run(SpringRestValidationsApplication.class, args);
 	}
 	
